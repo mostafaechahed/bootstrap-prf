@@ -1,0 +1,510 @@
+@import url("https://fonts.google.com/specimen/Antic+Slab?preview.text_type=custom#standard-styles");
+body{
+    box-sizing: border-box;
+   
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    background-color: #0a91e6;
+}
+.logo{
+    color: rgb(27, 27, 29);
+}
+#homme{
+    padding: 20px;
+  margin: 20px;
+}
+
+.lia{
+    font-size: 20px;
+}
+#em{
+    width: 50px;
+    height: 50px;
+}
+#hm{
+    margin-top: 100px;
+}
+#lg{
+    margin-top: 100px;
+}
+#about{
+margin: 20px;
+padding: 20px;
+}
+#skils{   padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+    margin: 20px;
+
+}
+#view{padding: 20px;
+    margin: 20px;
+
+}
+#contact{margin: 20px;
+    
+    padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+    }
+    #btn{
+      float: right;
+      margin-right: 5vw;
+    }
+footer{
+    margin-top: 200px;
+}
+#navf{
+    background-color: rgb(133, 131, 131);
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+  padding: 10px;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    
+   
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #copyr{
+    background-color: black;
+  }
+
+
+#SkillBox {
+    width: 95%;
+    height: auto;
+    border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-border-radius:20px;
+    -ms-border-radius:20px;
+    -moz-border-radius:20px;  
+}
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 75%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 20px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}
+to {
+    width: 75%}
+
+@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}
+#Skill-bereau {
+    width: 95%;
+    animation: Animate-bereua 3s;
+    -webkit-animation: Animate-bereau 3s;
+    -moz-animation: Animate-bereau 3s;
+    -o-animation: Animate-bereau 3s;
+    height: 20px;
+    position: absolute;
+    background-color: #0665f3;
+}
+
+@keyframes Animate-bereau {
+    from {
+    width: 10px;
+}
+to{
+    width: 95%;
+}
+}
+@-webkit-keyframes Animate-bereau {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-bereau {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-bereau {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}
+#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 60%;
+    height: 20px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}
+#Skill-boots {
+    animation: Animate-boots 5s;
+    -webkit-animation: Animate-boots 5s;
+    -moz-animation: Animate-boots 5s;
+    -o-animation: Animate-boots 5s;
+    width: 50%;
+    height: 20px;
+    position: absolute;
+    background-color: #e40bb5;
+}
+@keyframes Animate-boots {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-boots {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-boots {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-boots {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+#Skill-JS {
+    animation: Animate-JS 6s;
+    -webkit-animation: Animate-JS 6s;
+    -moz-animation: Animate-JS 6s;
+    -o-animation: Animate-JS 6s;
+    width: 30%;
+    height: 20px;
+    position: absolute;
+    background-color: #fbff00;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+
+  
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  
+  .vibrate-1 {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-4 13:28:34
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */
+ @-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  .color-change-2x {
+	-webkit-animation: color-change-2x 3s linear infinite alternate both;
+	        animation: color-change-2x 3s linear infinite alternate both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-4 13:38:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation color-change-2x
+ * ----------------------------------------
+ */
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #c1effa;
+    }
+    100% {
+      background: #4dd2ff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #4dd2ff;
+    }
+    100% {
+      background: #c1effa;
+    }
+  }
+  .color-change-3x {
+	-webkit-animation: color-change-2x 3s linear infinite alternate both;
+	        animation: color-change-2x 3s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-3x {
+    0% {
+      background: #80ffff;
+    }
+    100% {
+      background: #e6ffff;
+    }
+  }
+  @keyframes color-change-3x {
+    0% {
+      background: #e6ffff;
+    }
+    100% {
+      background: #80ffff;
+    }
+  }
+  .heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-4 14:54:54
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation heartbeat
+ * ----------------------------------------
+ */
+ @-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
